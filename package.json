@@ -1,0 +1,19 @@
+{
+  "name": "flash-plugin-detect",
+  "version": "0.0.1",
+  "main": "dist/flash-plugin-detect.js",
+  "module": "dist/flash-plugin-detect.es.js",
+  "jsnext:main": "dist/flash-plugin-detect.es.js",
+  "umd:main": "dist/flash-plugin-detect.umd.js",
+  "repository": "https://github.com/L-Chris/flash-plugin-detect",
+  "author": "L-Chris <563303226@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && microbundle --external all",
+    "dev": "microbundle watch"
+  },
+  "devDependencies": {
+    "microbundle": "^0.9.0",
+    "rimraf": "^2.6.3"
+  }
+}
